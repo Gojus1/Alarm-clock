@@ -8,6 +8,7 @@ The project demonstrates the use of sensors (button) and actuators (LCD and buzz
 ---
 
 ## Features
+-
 Displays the current time (hours and minutes) on LCD screen.
 Hardcoded alarm time (set in code).
 Buzzer rings when the alarm time is reached.
@@ -17,6 +18,7 @@ Actuators: buzzer and LCD screen
 ---
 
 # To wire your LCD screen to your board, connect the following pins:
+-
 LCD RS pin to digital pin 12.
 LCD Enable pin to digital pin 11.
 LCD D4 pin to digital pin 5.
