@@ -29,3 +29,8 @@ The project demonstrates the use of **sensors (button)** and **actuators (LCD + 
 2. The LCD shows the current time and the alarm setting.
 3. When the set alarm time matches the clock, the buzzer turns on.
 4. The push button can stop the buzzer by disabling the alarm.
+
+---
+
+## Future Improvements
+1. To be able to set time and alarm with buttons
