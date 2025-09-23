@@ -1,27 +1,30 @@
 # Arduino Alarm Clock
 
 A simple alarm clock built with an Arduino, LCD, and buzzer.  
-The project demonstrates the use of **sensors (button)** and **actuators (LCD + buzzer)**.
+The project demonstrates the use of sensors (button) and actuators (LCD and buzzer).
 
+---
 ![Preview](alarm.png)
 ---
 
 ## Features
-- Displays the current time (hours and minutes) on a 16x2 LCD.
-- Hardcoded alarm time (set in code).
-- Buzzer rings when the alarm time is reached.
-- Push button can stop the alarm ringing.
-- Demonstrates **sensor → actuator interaction**:
-  - **Sensor:** push button
-  - **Actuators:** buzzer + LCD
+Displays the current time (hours and minutes) on LCD screen.
+Hardcoded alarm time (set in code).
+Buzzer rings when the alarm time is reached.
+Push button can stop the alarm ringing.
+Sensor: pushbutton
+Actuators: buzzer and LCD screen
 ---
 
-## Circuit Wiring
-- **LCD:** RS → 12, E → 11, D4 → 5, D5 → 4, D6 → 3, D7 → 2  
-- **Buzzer:** pin 8 → positive leg, GND → negative leg  
-- **Button:** pin 7 → one leg, other leg → GND (using `INPUT_PULLUP`)  
-- **LCD Power:** VCC → 5V, GND → GND  
-
+# To wire your LCD screen to your board, connect the following pins:
+LCD RS pin to digital pin 12.
+LCD Enable pin to digital pin 11.
+LCD D4 pin to digital pin 5.
+LCD D5 pin to digital pin 4.
+LCD D6 pin to digital pin 3.
+LCD D7 pin to digital pin 2.
+LCD R/W pin to GND.
+LCD VSS pin to GND.
 ---
 
 ## How It Works
@@ -33,4 +36,4 @@ The project demonstrates the use of **sensors (button)** and **actuators (LCD + 
 ---
 
 ## Future Improvements
-1. To be able to set time and alarm with buttons
+- To be able to set time and alarm with buttons
