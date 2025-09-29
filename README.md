@@ -4,6 +4,11 @@ A simple alarm clock built with an Arduino, LCD, and buzzer.
 The project demonstrates the use of sensors (button) and actuators (LCD and buzzer).
 
 ---
+##Demo Video
+https://drive.google.com/file/d/1WbxwsO6Xx29RwOU6ohdVN6r8GGUi0kA9/view?usp=sharing
+---
+
+
 ![Preview](alarm.png)
 ---
 
